@@ -33,4 +33,29 @@ class SolutionTest {
             assertArrayEquals(test.exp, node.visitNodes());
         }
     }
+
+    @Test
+    void middleNode2() {
+        TestSet[] tests = new TestSet[]{
+                new TestSet(new int[]{1,2,3,4,5}, new int[]{3,4,5}),
+                new TestSet(new int[]{1,2,3,4,5,6}, new int[]{4,5,6}),
+        };
+        for (TestSet test: tests) {
+            ListNode node = solution.middleNode2(test.head);
+            assertArrayEquals(test.exp, node.visitNodes());
+        }
+    }
+
+    @Test
+    void middleNode3() {
+        TestSet[] tests = new TestSet[]{
+                new TestSet(new int[]{1,2,3,4,5}, new int[]{3,4,5}),
+                new TestSet(new int[]{1,2,3,4,5,6}, new int[]{4,5,6}),
+        };
+        for (TestSet test: tests) {
+            ListNode node = solution.middleNode3(test.head);
+            assertArrayEquals(test.exp, node.visitNodes());
+        }
+    }
+
 }
