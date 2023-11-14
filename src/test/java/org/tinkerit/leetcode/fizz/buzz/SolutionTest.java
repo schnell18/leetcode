@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,7 +15,7 @@ class SolutionTest {
         public List<String> exp;
         public TestSet(int input, String[] exp) {
             this.input = input;
-            this.exp = Arrays.stream(exp).toList();
+            this.exp = Arrays.stream(exp).collect(Collectors.toList());
         }
     }
 
