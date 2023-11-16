@@ -15,7 +15,7 @@ public class SolutionTest {
         }
     }
 
-    private Solution solution = new Solution();
+    private final Solution solution = new Solution();
 
     @Test
     void numberOfSteps() {

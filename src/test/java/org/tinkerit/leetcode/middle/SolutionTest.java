@@ -1,6 +1,7 @@
 package org.tinkerit.leetcode.middle;
 
 import org.junit.jupiter.api.Test;
+import org.tinkerit.leetcode.common.ListNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -20,7 +21,7 @@ class SolutionTest {
         }
     }
 
-    private Solution solution = new Solution();
+    private final Solution solution = new Solution();
 
     @Test
     void middleNode() {

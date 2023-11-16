@@ -1,5 +1,7 @@
 package org.tinkerit.leetcode.middle;
 
+import org.tinkerit.leetcode.common.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

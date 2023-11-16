@@ -19,7 +19,7 @@ class SolutionTest {
         }
     }
 
-    private Solution solution = new Solution();
+    private final Solution solution = new Solution();
     @Test
     void fizzBuzz() {
         TestSet[] testSets = new TestSet[]{
